@@ -66,7 +66,7 @@ html {
   margin: 0;
   font-family: "Figtree", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: clamp(0.75rem, 0.1rem + 2.75vw, 0.875rem);
   line-height: 1.5;
   color: var(--color-gray-950);
   border-radius: 4px;
@@ -76,7 +76,7 @@ html {
 .card__date {
   font-family: "Figtree", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: clamp(0.75rem, 0.1rem + 2.75vw, 0.875rem);
   line-height: 1.5;
   color: var(--color-gray-950);
 }
@@ -85,7 +85,7 @@ html {
   margin: 0;
   font-family: "Figtree", sans-serif;
   font-weight: 800;
-  font-size: 24px;
+  font-size: clamp(1.25rem, 0.1rem + 4.9vw, 1.5rem);
   line-height: 1.5;
   color: var(--color-gray-950);
   transition: color 0.1s;
@@ -100,7 +100,7 @@ html {
   margin: 0;
   font-family: "Figtree", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: clamp(0.875rem, 0.1rem + 3.3vw, 1rem);
   line-height: 1.5;
   color: var(--color-gray-500);
 }
